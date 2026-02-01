@@ -1,16 +1,15 @@
-# Airflow
+# Python
+__pycache__/
+*.pyc
+
+# Airflow runtime
 airflow/logs/
 airflow/output_files/
 airflow/config/airflow.cfg
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Env
+# Environment
 .env
+env/
 
 # OS
 .DS_Store
