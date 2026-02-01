@@ -1,0 +1,5 @@
+{"timestamp":"2026-01-31T09:22:57.920069Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-01-31T09:22:57.926377Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/incremental_api_data_load.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-01-31T09:22:58.307686Z","level":"info","event":"{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\\"start_date\\\": \\\"2026-01-04\\\", \\\"end_date\\\": \\\"2026-01-04\\\"}\"}]}","logger":"task.stdout"}
+{"timestamp":"2026-01-31T09:22:58.312496Z","level":"info","event":"Saved API output to : /opt/airflow/output_files/dag_result_2026-01-04.json","logger":"task.stdout"}
+{"timestamp":"2026-01-31T09:22:58.312834Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
